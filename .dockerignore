@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+.dockerignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks
+notebooks/
+*.ipynb
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Local files
+result.csv
+test/
+saved_images/
