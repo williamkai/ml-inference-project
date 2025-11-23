@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  digit-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app # 將整個專案掛載進容器
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
