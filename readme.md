@@ -110,7 +110,7 @@ ml-inference-project/
 
 部屬完成後，可直接透過以下網址測試 API 功能：
 
-[API Docs](https://<YOUR_RENDER_URL>/docs)
+[API Docs](https://ml-inference-project.onrender.com/docs#)
 
 ---
 
